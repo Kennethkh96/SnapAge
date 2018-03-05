@@ -1,0 +1,27 @@
+#videoContainer {
+    box-sizing: border-box;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    video { height: 100%;}
+    position: fixed;
+    top:0;
+
+    .stream-wrapper,
+    .canvas-wrapper {
+        height: 100%;
+    }
+}
+body {
+    overflow: hidden;
+}
+.icons-wrapper {
+    position: fixed;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+    i {
+        font-size: 75px;
+        color: #fff;
+    }
+}

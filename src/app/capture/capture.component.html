@@ -1,0 +1,12 @@
+<div id="videoContainer">
+  <div class="stream-wrapper" [hidden]="hideCamera">
+    <video #video autoplay class="screen" id="camera-stream" height="{{height}}" width="{{width}}"></video>
+    <div class="icons-wrapper">
+      <i class="material-icons tet" (click)="takePicture()" >radio_button_checked</i>
+    </div>
+  </div>
+  <div class="canvas-wrapper">
+    <canvas #canvas height="{{height}}" width="{{width}}"></canvas>
+
+  </div>
+</div>
